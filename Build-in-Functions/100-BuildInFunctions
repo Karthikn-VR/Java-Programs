@@ -1,0 +1,127 @@
+**1–20: String Methods**
+
+1. `length()`
+2. `charAt(int index)`
+3. `substring(int beginIndex)`
+4. `substring(int beginIndex, int endIndex)`
+5. `toLowerCase()`
+6. `toUpperCase()`
+7. `trim()`
+8. `replace(char oldChar, char newChar)`
+9. `replaceAll(String regex, String replacement)`
+10. `split(String regex)`
+11. `equals(String another)`
+12. `equalsIgnoreCase(String another)`
+13. `startsWith(String prefix)`
+14. `endsWith(String suffix)`
+15. `contains(CharSequence s)`
+16. `indexOf(int ch)`
+17. `indexOf(String str)`
+18. `lastIndexOf(String str)`
+19. `isEmpty()`
+20. `compareTo(String anotherString)`
+
+---
+
+**21–40: Math Class**
+
+21. `Math.abs(int a)`
+22. `Math.max(int a, int b)`
+23. `Math.min(int a, int b)`
+24. `Math.sqrt(double a)`
+25. `Math.pow(double a, double b)`
+26. `Math.round(double a)`
+27. `Math.ceil(double a)`
+28. `Math.floor(double a)`
+29. `Math.random()`
+30. `Math.log(double a)`
+31. `Math.exp(double a)`
+32. `Math.sin(double a)`
+33. `Math.cos(double a)`
+34. `Math.tan(double a)`
+35. `Math.toDegrees(double a)`
+36. `Math.toRadians(double a)`
+37. `Math.cbrt(double a)`
+38. `Math.copySign(double magnitude, double sign)`
+39. `Math.hypot(double x, double y)`
+40. `Math.signum(double a)`
+
+---
+
+**41–60: Arrays & Collections**
+
+41. `Arrays.sort(array)`
+42. `Arrays.toString(array)`
+43. `Arrays.equals(array1, array2)`
+44. `Arrays.copyOf(array, newLength)`
+45. `Arrays.copyOfRange(array, from, to)`
+46. `Arrays.fill(array, value)`
+47. `Arrays.binarySearch(array, key)`
+48. `Collections.sort(list)`
+49. `Collections.reverse(list)`
+50. `Collections.shuffle(list)`
+51. `Collections.max(collection)`
+52. `Collections.min(collection)`
+53. `Collections.frequency(collection, element)`
+54. `Collections.swap(list, i, j)`
+55. `Collections.copy(dest, src)`
+56. `Collections.singletonList(object)`
+57. `Collections.unmodifiableList(list)`
+58. `List.add(element)`
+59. `List.remove(index)`
+60. `List.contains(element)`
+
+---
+
+ **61–75: Thread & Time**
+
+61. `Thread.sleep(milliseconds)`
+62. `System.currentTimeMillis()`
+63. `System.nanoTime()`
+64. `LocalDate.now()`
+65. `LocalTime.now()`
+66. `LocalDateTime.now()`
+67. `LocalDate.parse("YYYY-MM-DD")`
+68. `LocalDateTime.parse("YYYY-MM-DDTHH:MM")`
+69. `LocalDate.plusDays(n)`
+70. `LocalDate.minusDays(n)`
+71. `LocalDate.getDayOfWeek()`
+72. `LocalTime.getHour()`
+73. `ChronoUnit.DAYS.between(date1, date2)`
+74. `Date.toString()`
+75. `Calendar.getInstance()`
+
+---
+
+**76–90: Input/Output & System**
+
+76. `System.out.println()`
+77. `System.out.print()`
+78. `System.err.println()`
+79. `Scanner.next()`
+80. `Scanner.nextLine()`
+81. `Scanner.nextInt()`
+82. `Scanner.hasNext()`
+83. `BufferedReader.readLine()`
+84. `InputStream.read()`
+85. `File.exists()`
+86. `File.createNewFile()`
+87. `File.delete()`
+88. `File.length()`
+89. `File.getName()`
+90. `File.getAbsolutePath()`
+
+---
+
+**91–100: Miscellaneous Useful Built-ins**
+
+91. `Object.equals(Object obj)`
+92. `Object.hashCode()`
+93. `Object.toString()`
+94. `Integer.parseInt(String)`
+95. `Double.parseDouble(String)`
+96. `String.valueOf(int)`
+97. `Character.isDigit(char)`
+98. `Character.isLetter(char)`
+99. `Character.toUpperCase(char)`
+100. `Character.toLowerCase(char)`
